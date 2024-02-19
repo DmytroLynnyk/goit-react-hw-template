@@ -34,10 +34,18 @@ li {
 }
 
 img {
-  display: block;
+  /* display: block;
   max-width: 400px;
   min-width: 100px;
+  height: auto; */
+
+  max-width: 100%;
   height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
 }
 
 button {
